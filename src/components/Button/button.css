@@ -1,0 +1,13 @@
+.button {
+  height: 40px;
+  width: 80px;
+  color: var(--white);
+  background: var(--light-orange);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-style: groove;
+}
+.button:hover {
+  background: var(--light-green);
+}

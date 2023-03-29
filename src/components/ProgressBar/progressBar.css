@@ -1,0 +1,23 @@
+.progressBar {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  background: #eeeeee;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  border-style: groove;
+  box-shadow: -1px 0px 10px 3px #49416d;
+}
+.progressBar__fill {
+  position: absolute;
+  height: 100%;
+  background: var(--fill-color, #324593);
+}
+.progressBar__label {
+  padding-left: 5px;
+  position: relative;
+  z-index: 1;
+}
